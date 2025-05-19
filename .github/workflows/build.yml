@@ -12,7 +12,7 @@ jobs:
     name: Build and analyze
     runs-on:
       group: VM-BINUS
-      labels: [self-hosted, poc-sonarqube]
+      labels: [self-hosted]
     
     steps:
       - uses: actions/checkout@v4
